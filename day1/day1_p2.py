@@ -1,4 +1,4 @@
-file = open("day1_input.txt", "r")
+file = open("day1/day1_input.txt", "r")
 
 def calc_fuel(amount):
     amount = int(amount)

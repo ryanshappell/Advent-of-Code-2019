@@ -1,4 +1,4 @@
-file = open("day2_input.txt", "r")
+file = open("day2/day2_input.txt", "r")
 original = file.read()
 orig_data = list(map(int, original.split(",")))
 file.close()

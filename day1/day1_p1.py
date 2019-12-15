@@ -1,4 +1,4 @@
-file = open("day1_input.txt", "r")
+file = open("day1/day1_input.txt", "r")
 fuel = 0
 for mass in file:
     fuel += (int) (int(mass) / 3) - 2

@@ -1,4 +1,4 @@
-file = open("day2_input.txt", "r")
+file = open("day2/day2_input.txt", "r")
 data = list(map(int, file.read().split(",")))
 
 i = 0
